@@ -1,7 +1,4 @@
-A library for Dart developers.
-
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+A Dart library that parses two time strings and calculates the time span in minutes as int or hours as double.
 
 ## Usage
 
@@ -10,8 +7,10 @@ A simple usage example:
 ```dart
 import 'package:time_span/time_span.dart';
 
-main() {
-  var awesome = new Awesome();
+void main() {
+  var timeSpan = TimeSpan('09:00', '21:30');
+  print('Time span in hours: ${timeSpan.inHours}'); // 12.5
+  print('Time span in inMinutes: ${timeSpan.inMinutes}'); // 750
 }
 ```
 
@@ -19,4 +18,4 @@ main() {
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+[tracker]: https://github.com/AndreeWille/time-span/issues
