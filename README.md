@@ -8,7 +8,7 @@ Created from templates made available by Stagehand under a BSD-style
 A simple usage example:
 
 ```dart
-import 'package:time_warp/time_warp.dart';
+import 'package:time_span/time_span.dart';
 
 main() {
   var awesome = new Awesome();
