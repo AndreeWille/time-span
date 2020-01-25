@@ -1,4 +1,4 @@
-A Dart library that parses two time strings and calculates the time span in minutes as int or hours as double.
+A Dart library that parses two time strings of format HH:MM and calculates the time span in minutes as int or hours as double.
 
 ## Usage
 
