@@ -1,3 +1,7 @@
+## 2.0.2 (2021-05-27)
+
+- update dependencies to newest version
+
 ## 2.0.1 (2021-05-27)
 
 - format code with dartfmt
