@@ -6,8 +6,9 @@ class TimeSpan {
   final minutesPerHour = 60;
   final minutesPerDay = 1440;
 
-  double get inHours => double.parse((inMinutes / minutesPerHour).toStringAsFixed(2));
-  
+  double get inHours =>
+      double.parse((inMinutes / minutesPerHour).toStringAsFixed(2));
+
   int get inMinutes {
     var result = _calculateMinutes();
     return result;
@@ -25,13 +26,12 @@ class TimeSpan {
   int _timeInMinutes(Time time) => (time.hours * 60) + time.minutes;
 
   int _calculateMinutes() {
-    var result = _endTimeOnNextDay() ? 
-      (minutesPerDay - _startTimeInMinutes()) + _endTimeInMinutes() :
-      _endTimeInMinutes() - _startTimeInMinutes();
+    var result = _endTimeOnNextDay()
+        ? (minutesPerDay - _startTimeInMinutes()) + _endTimeInMinutes()
+        : _endTimeInMinutes() - _startTimeInMinutes();
 
     return result;
   }
 
   bool _endTimeOnNextDay() => _endTimeInMinutes() < _startTimeInMinutes();
 }
-

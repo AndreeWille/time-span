@@ -1,6 +1,6 @@
 name: time_span
 description: a dart library that calculates the time span in hours or minutes for two given time strings of format HH:MM.
-version: 2.0.0
+version: 2.0.1
 
 homepage: https://github.com/AndreeWille/time-span
 repository: https://github.com/AndreeWille/time-span

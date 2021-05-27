@@ -1,3 +1,7 @@
+## 2.0.1 (2021-05-27)
+
+- format code with dartfmt
+
 ## 2.0.0 (2021-05-27)
 
 - opt in to null safety. Requires Dart SDK >= 2.12.0
