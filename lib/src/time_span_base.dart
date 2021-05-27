@@ -1,8 +1,8 @@
 import 'package:time_parser/time_parser.dart';
 
 class TimeSpan {
-  Time startTime;
-  Time endTime;
+  late Time startTime;
+  late Time endTime;
   final minutesPerHour = 60;
   final minutesPerDay = 1440;
 

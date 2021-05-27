@@ -1,7 +1,11 @@
+## 2.0.0 (2021-05-27)
+
+- opt in to null safety. Requires Dart SDK >= 2.12.0
+
 ## 1.0.3 (2020-01-25)
 
- - fix typo in pubspec.yaml description
- - update README.md 
+- fix typo in pubspec.yaml description
+- update README.md
 
 ## 1.0.2 (2020-01-23)
 
